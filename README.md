@@ -1,2 +1,2 @@
 # write-venture
-An mps based interactive story telling dsl
+A "Meta Programming System (mps)" based interactive story telling game creator.
