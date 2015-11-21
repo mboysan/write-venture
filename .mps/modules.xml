@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/WriteVenture/WriteVenture.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/WriteVenture/sandbox/WriteVenture.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Logging/Logging.msd" folder="" />
     </projectModules>
   </component>
 </project>

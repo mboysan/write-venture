@@ -18,3 +18,5 @@ junit*.properties
 ## File-based project format:
 *.ipr
 *.iws
+
+logs/
