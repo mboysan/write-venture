@@ -24,7 +24,6 @@
       <concept id="8800110643668976089" name="WriteVenture.structure.PageSettings" flags="ng" index="u9$vo">
         <property id="8800110643668976125" name="allowReferencing" index="u9$vW" />
       </concept>
-      <concept id="7907752766810218904" name="WriteVenture.structure.IPage" flags="ng" index="3wU1EA" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -99,9 +98,6 @@
               <property role="u9$vW" value="true" />
             </node>
           </node>
-        </node>
-        <node concept="20NQQx" id="4ibp81_DGku" role="20WOvG">
-          <node concept="3wU1EA" id="4ibp81_DGkv" role="3wVJcs" />
         </node>
         <node concept="u9$vo" id="4ibp81_DGky" role="u9xiV">
           <property role="u9$vW" value="true" />
