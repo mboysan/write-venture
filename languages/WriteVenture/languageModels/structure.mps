@@ -56,6 +56,12 @@
     <node concept="PrWs8" id="6QXYNUdlu7u" role="PzmwI">
       <ref role="PrY4T" node="6QXYNUdlu6o" resolve="IPage" />
     </node>
+    <node concept="1TJgyj" id="CvU6RqMOpj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pageTitle" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Text" />
+    </node>
     <node concept="1TJgyj" id="1Yiybmvosq5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageText" />
