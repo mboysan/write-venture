@@ -33,6 +33,7 @@
       <concept id="7907752766810219014" name="WriteVenture.structure.PageReference" flags="ng" index="3wU1$S">
         <reference id="7907752766810219061" name="page" index="3wU1$b" />
       </concept>
+      <concept id="7907752766810218904" name="WriteVenture.structure.IPage" flags="ng" index="3wU1EA" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -66,17 +67,13 @@
       <node concept="20NQ4T" id="CvU6RqPTy0" role="20WOu6">
         <property role="20NQnx" value="Mauris at porttitor nisi, eget tempor orci. Curabitur blandit urna non massa ultricies, in semper erat luctus" />
       </node>
-      <node concept="3wU1$S" id="CvU6RqUMi1" role="3wVJcs">
-        <ref role="3wU1$b" node="4ibp81_DGkC" resolve="Page 2.1.1" />
-      </node>
+      <node concept="3wU1EA" id="g12W82vt1M" role="3wVJcs" />
     </node>
     <node concept="20NQQx" id="CvU6RqPTyh" role="20WOvG">
       <node concept="20NQ4T" id="CvU6RqPTyo" role="20WOu6">
         <property role="20NQnx" value="Duis vitae condimentum nunc. Donec odio arcu, varius sed rhoncus" />
       </node>
-      <node concept="3wU1$S" id="CvU6RqUMi4" role="3wVJcs">
-        <ref role="3wU1$b" node="4ibp81_DGkf" resolve="Page 2.2" />
-      </node>
+      <node concept="3wU1EA" id="g12W82vt1O" role="3wVJcs" />
     </node>
     <node concept="20NQQx" id="CvU6RqPTyQ" role="20WOvG">
       <node concept="3wU1$S" id="CvU6RqUMi7" role="3wVJcs">
@@ -115,31 +112,18 @@
     <node concept="u9$vo" id="4ibp81_D_EF" role="u9xiV">
       <property role="u9$vW" value="true" />
     </node>
-    <node concept="20NQQx" id="4ibp81_D_EH" role="20WOvG">
-      <node concept="20NVCQ" id="4ibp81_D_EL" role="3wVJcs">
-        <property role="TrG5h" value="Page 2.1" />
-        <node concept="20NQQx" id="4ibp81_DGk$" role="20WOvG">
-          <node concept="20NVCQ" id="4ibp81_DGkC" role="3wVJcs">
-            <property role="TrG5h" value="Page 2.1.1" />
-            <node concept="u9$vo" id="4ibp81_DGkY" role="u9xiV">
-              <property role="u9$vW" value="true" />
-            </node>
-          </node>
+    <node concept="20NQQx" id="g12W82vt2g" role="20WOvG">
+      <node concept="20NVCQ" id="g12W82vt2k" role="3wVJcs">
+        <property role="TrG5h" value="Page 2.2" />
+        <node concept="u9$vo" id="g12W82vt2l" role="u9xiV">
+          <property role="u9$vW" value="true" />
         </node>
       </node>
     </node>
-    <node concept="20NQQx" id="4ibp81_DGk9" role="20WOvG">
-      <node concept="20NVCQ" id="4ibp81_DGkf" role="3wVJcs">
-        <property role="TrG5h" value="Page 2.2" />
-        <node concept="20NQQx" id="4ibp81_DGl0" role="20WOvG">
-          <node concept="20NVCQ" id="4ibp81_DGl6" role="3wVJcs">
-            <property role="TrG5h" value="Page 2.2.1" />
-            <node concept="u9$vo" id="4ibp81_DGlv" role="u9xiV">
-              <property role="u9$vW" value="true" />
-            </node>
-          </node>
-        </node>
-        <node concept="u9$vo" id="4ibp81_DGky" role="u9xiV">
+    <node concept="20NQQx" id="g12W82vt2p" role="20WOvG">
+      <node concept="20NVCQ" id="g12W82vt2w" role="3wVJcs">
+        <property role="TrG5h" value="Page 2.1" />
+        <node concept="u9$vo" id="g12W82vt2x" role="u9xiV">
           <property role="u9$vW" value="true" />
         </node>
       </node>

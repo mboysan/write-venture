@@ -63,7 +63,6 @@
   <dependencies>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
     <dependency reexport="false">e5c3787b-910c-44d3-8044-c209ab5615c5(Logging)</dependency>
   </dependencies>
   <usedLanguages>
