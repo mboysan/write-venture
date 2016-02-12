@@ -15,11 +15,17 @@
         <child id="2275031075419712912" name="stats" index="20NQk_" />
       </concept>
       <concept id="2275031075419712862" name="WriteVenture.structure.Player" flags="ng" index="20NQnF" />
+      <concept id="2275031075419710740" name="WriteVenture.structure.Choice" flags="ng" index="20NQQx">
+        <child id="2275031075419967283" name="text" index="20WOu6" />
+        <child id="7907752766810032162" name="nextPage" index="3wVJcs" />
+      </concept>
       <concept id="2275031075419665027" name="WriteVenture.structure.Page" flags="ng" index="20NVCQ">
+        <child id="2275031075419967321" name="choices" index="20WOvG" />
         <child id="2275031075419965061" name="pageText" index="20WOSK" />
         <child id="8800110643668996794" name="pageSettings" index="u9xiV" />
       </concept>
       <concept id="8800110643668976089" name="WriteVenture.structure.PageSettings" flags="ng" index="u9$vo" />
+      <concept id="7907752766810218904" name="WriteVenture.structure.IPage" flags="ng" index="3wU1EA" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -51,6 +57,10 @@
     <property role="TrG5h" value="Page 1" />
     <node concept="u9$vo" id="3gEp3HZ3kyE" role="u9xiV" />
     <node concept="20NQ4T" id="3gEp3HZ3kyn" role="20WOSK" />
+    <node concept="20NQQx" id="3gEp3HZ47pJ" role="20WOvG">
+      <node concept="3wU1EA" id="3gEp3HZ47pK" role="3wVJcs" />
+      <node concept="20NQ4T" id="3gEp3HZ47pL" role="20WOu6" />
+    </node>
   </node>
 </model>
 

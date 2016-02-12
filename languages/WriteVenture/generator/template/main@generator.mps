@@ -1305,43 +1305,22 @@
                                 </node>
                                 <node concept="liA8E" id="4koESzycmH3" role="2OqNvi">
                                   <ref role="37wK5l" to="rml1:~Logger.debug(java.lang.String,org.apache.logging.log4j.util.Supplier...):void" resolve="debug" />
-                                  <node concept="Xl_RD" id="4koESzycmLa" role="37wK5m">
-                                    <property role="Xl_RC" value="Copying generated sources..." />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbF" id="4koESzy6MAd" role="3cqZAp">
-                              <node concept="2OqwBi" id="4koESzy6MCf" role="3clFbG">
-                                <node concept="37vLTw" id="4koESzy6MAb" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4koESzy6HXG" resolve="logger" />
-                                </node>
-                                <node concept="liA8E" id="4koESzy6MHY" role="2OqNvi">
-                                  <ref role="37wK5l" to="rml1:~Logger.debug(java.lang.String,org.apache.logging.log4j.util.Supplier...):void" resolve="debug" />
-                                  <node concept="3cpWs3" id="4koESzy6N6W" role="37wK5m">
-                                    <node concept="37vLTw" id="4koESzy6N8J" role="3uHU7w">
-                                      <ref role="3cqZAo" node="4koESzy6M8Z" resolve="sourcePath" />
-                                    </node>
-                                    <node concept="Xl_RD" id="4koESzy6MND" role="3uHU7B">
-                                      <property role="Xl_RC" value="Source Path: " />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3clFbF" id="4koESzybAR2" role="3cqZAp">
-                              <node concept="2OqwBi" id="4koESzybARt" role="3clFbG">
-                                <node concept="37vLTw" id="4koESzybAR1" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4koESzy6HXG" resolve="logger" />
-                                </node>
-                                <node concept="liA8E" id="4koESzybAX5" role="2OqNvi">
-                                  <ref role="37wK5l" to="rml1:~Logger.debug(java.lang.String,org.apache.logging.log4j.util.Supplier...):void" resolve="debug" />
-                                  <node concept="3cpWs3" id="4koESzybB2T" role="37wK5m">
-                                    <node concept="Xl_RD" id="4koESzybB4B" role="3uHU7B">
-                                      <property role="Xl_RC" value="Destination Path: " />
-                                    </node>
-                                    <node concept="37vLTw" id="4koESzybAXK" role="3uHU7w">
+                                  <node concept="3cpWs3" id="3gEp3HZ3uHC" role="37wK5m">
+                                    <node concept="37vLTw" id="3gEp3HZ3vaw" role="3uHU7w">
                                       <ref role="3cqZAo" node="4koESzybzEt" resolve="destinationPath" />
+                                    </node>
+                                    <node concept="3cpWs3" id="3gEp3HZ3tkA" role="3uHU7B">
+                                      <node concept="3cpWs3" id="3gEp3HZ3sRv" role="3uHU7B">
+                                        <node concept="Xl_RD" id="4koESzycmLa" role="3uHU7B">
+                                          <property role="Xl_RC" value="Copying generated sources... SourcePath: " />
+                                        </node>
+                                        <node concept="37vLTw" id="3gEp3HZ3t8b" role="3uHU7w">
+                                          <ref role="3cqZAo" node="4koESzy6M8Z" resolve="sourcePath" />
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="3gEp3HZ3tkD" role="3uHU7w">
+                                        <property role="Xl_RC" value=", DestinationPath: " />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
