@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/WriteVenture/WriteVenture.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/WriteVenture/sandbox/WriteVenture.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Build.build/Build.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ExternalLibs/ExternalLibs.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Logging/Logging.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MyCustomSandbox/MyCustomSandbox.msd" folder="" />

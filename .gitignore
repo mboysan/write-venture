@@ -19,5 +19,8 @@ junit*.properties
 *.ipr
 *.iws
 
+buildDistribution.xml
+build.xml
+build/
 logs/
 Generated/
