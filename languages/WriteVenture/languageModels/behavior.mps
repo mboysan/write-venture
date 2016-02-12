@@ -65,24 +65,10 @@
     </language>
   </registry>
   <node concept="13h7C7" id="4ibp81_$WE5">
-    <property role="3GE5qa" value="page" />
+    <property role="3GE5qa" value="page.settings" />
     <ref role="13h7C2" to="r532:7Cwhw5$1w7p" resolve="PageSettings" />
     <node concept="13hLZK" id="4ibp81_$WE6" role="13h7CW">
-      <node concept="3clFbS" id="4ibp81_$WE7" role="2VODD2">
-        <node concept="3clFbF" id="4ibp81__gBG" role="3cqZAp">
-          <node concept="37vLTI" id="4ibp81__TH8" role="3clFbG">
-            <node concept="3clFbT" id="4ibp81__TJZ" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="4ibp81__jY8" role="37vLTJ">
-              <node concept="13iPFW" id="4ibp81__gBF" role="2Oq$k0" />
-              <node concept="3TrcHB" id="4ibp81__AN8" role="2OqNvi">
-                <ref role="3TsBF5" to="r532:7Cwhw5$1w7X" resolve="allowReferencing" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="4ibp81_$WE7" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="4ibp81_DPEF">
@@ -95,7 +81,7 @@
             <node concept="2ShNRf" id="4ibp81_DQfY" role="37vLTx">
               <node concept="3zrR0B" id="4ibp81_DQf8" role="2ShVmc">
                 <node concept="3Tqbb2" id="4ibp81_DQf9" role="3zrR0E">
-                  <ref role="ehGHo" to="r532:7Cwhw5$1w7p" resolve="PageSettings" />
+                  <ref role="ehGHo" to="r532:3gEp3HYXOKb" resolve="IPageSettings" />
                 </node>
               </node>
             </node>
@@ -103,6 +89,27 @@
               <node concept="13iPFW" id="4ibp81_DPEI" role="2Oq$k0" />
               <node concept="3TrEf2" id="4ibp81_DQ1Z" role="2OqNvi">
                 <ref role="3Tt5mk" to="r532:7Cwhw5$1_aU" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3gEp3HZ0WYh">
+    <property role="3GE5qa" value="page.settings" />
+    <ref role="13h7C2" to="r532:3gEp3HYXOKb" resolve="IPageSettings" />
+    <node concept="13hLZK" id="3gEp3HZ0WYi" role="13h7CW">
+      <node concept="3clFbS" id="3gEp3HZ0WYj" role="2VODD2">
+        <node concept="3clFbF" id="3gEp3HZ0WYl" role="3cqZAp">
+          <node concept="37vLTI" id="3gEp3HZ0Xr5" role="3clFbG">
+            <node concept="3clFbT" id="3gEp3HZ0Xrv" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="3gEp3HZ0WZn" role="37vLTJ">
+              <node concept="13iPFW" id="3gEp3HZ0WYk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3gEp3HZ0Xd2" role="2OqNvi">
+                <ref role="3TsBF5" to="r532:3gEp3HYXOZW" resolve="allowReferencing" />
               </node>
             </node>
           </node>

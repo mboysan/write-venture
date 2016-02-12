@@ -16,7 +16,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -60,18 +62,19 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageTitle" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Text" />
+      <ref role="20lvS9" node="3gEp3HZ0GeT" resolve="Title" />
     </node>
     <node concept="1TJgyj" id="1Yiybmvosq5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageText" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Text" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Line" />
     </node>
     <node concept="1TJgyj" id="7Cwhw5$1_aU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageSettings" />
-      <ref role="20lvS9" node="7Cwhw5$1w7p" resolve="PageSettings" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3gEp3HYXOKb" resolve="IPageSettings" />
     </node>
     <node concept="1TJgyj" id="1YiybmvosXp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -90,13 +93,20 @@
     <node concept="1TJgyj" id="1YiybmvosWN" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Line" />
+    </node>
+    <node concept="1TJgyj" id="JLSGhYzflz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="choiceConditions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1YiybmvnuAc" resolve="Text" />
+      <ref role="20lvS9" node="JLSGhYz9r6" resolve="ChoiceCondition" />
     </node>
     <node concept="1TJgyj" id="6QXYNUdl$3z" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="conditionAndEffects" />
-      <ref role="20lvS9" node="6QXYNUdkKg8" resolve="ChoiceConditionAndEffects" />
+      <property role="20kJfa" value="choiceEffects" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6QXYNUdkKg8" resolve="ChoiceEffect" />
     </node>
     <node concept="1TJgyj" id="6QXYNUdkKwy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -106,14 +116,11 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1YiybmvnuAc">
-    <property role="TrG5h" value="Text" />
+    <property role="TrG5h" value="Line" />
+    <property role="3GE5qa" value="text" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1YiybmvnuAd" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="1YiybmvnuPk" role="1TKVEl">
-      <property role="TrG5h" value="content" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="3gEp3HZ0Gdn" role="PzmwI">
+      <ref role="PrY4T" node="3gEp3HZ0GbP" resolve="IText" />
     </node>
   </node>
   <node concept="1TIwiD" id="1YiybmvnuPu">
@@ -180,22 +187,17 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6QXYNUdkKg8">
-    <property role="TrG5h" value="ChoiceConditionAndEffects" />
+    <property role="TrG5h" value="ChoiceEffect" />
     <property role="R4oN_" value="Condition of this choice and the effect of it if chosen" />
     <property role="3GE5qa" value="choice" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6QXYNUdkKgL" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="6QXYNUdkKhH" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
     <node concept="1TJgyj" id="6QXYNUdkKhJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="effect" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="effects" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
@@ -225,12 +227,49 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7Cwhw5$1w7p">
-    <property role="3GE5qa" value="page" />
+    <property role="3GE5qa" value="page.settings" />
     <property role="TrG5h" value="PageSettings" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7Cwhw5$1w7X" role="1TKVEl">
+    <node concept="PrWs8" id="3gEp3HYXP0F" role="PzmwI">
+      <ref role="PrY4T" node="3gEp3HYXOKb" resolve="IPageSettings" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="JLSGhYz9r6">
+    <property role="3GE5qa" value="choice" />
+    <property role="TrG5h" value="ChoiceCondition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="JLSGhYzabe" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gEp3HYXOKb">
+    <property role="3GE5qa" value="page.settings" />
+    <property role="TrG5h" value="IPageSettings" />
+    <node concept="1TJgyi" id="3gEp3HYXOZW" role="1TKVEl">
       <property role="TrG5h" value="allowReferencing" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3gEp3HZ0GbP">
+    <property role="TrG5h" value="IText" />
+    <property role="3GE5qa" value="text" />
+    <node concept="1TJgyi" id="3gEp3HZ0GbQ" role="1TKVEl">
+      <property role="TrG5h" value="content" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="3gEp3HZ0GcA" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gEp3HZ0GeT">
+    <property role="TrG5h" value="Title" />
+    <property role="3GE5qa" value="text" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3gEp3HZ0GeU" role="PzmwI">
+      <ref role="PrY4T" node="3gEp3HZ0GbP" resolve="IText" />
     </node>
   </node>
 </model>
